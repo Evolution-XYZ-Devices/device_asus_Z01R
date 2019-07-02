@@ -192,3 +192,7 @@ PRODUCT_BOOT_JARS += \
 # ThermalController app
 PRODUCT_PACKAGES += \
     ThermalController
+
+# Dirac
+PRODUCT_PACKAGES += \
+    Dirac
