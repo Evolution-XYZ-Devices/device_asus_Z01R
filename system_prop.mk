@@ -81,3 +81,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Asus RIL Hax
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hexedit.manufacturer=unknown
+
+# WideColorGamut
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.wcg.enable=1
+
+# Expose AUX
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam
