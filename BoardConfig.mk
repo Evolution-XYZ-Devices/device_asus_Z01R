@@ -164,3 +164,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from the proprietary version
 -include vendor/asus/Z01R/BoardConfigVendor.mk
+
+# Fix DEXPREOPT Error
+WITH_DEXPREOPT=false
