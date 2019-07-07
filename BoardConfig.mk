@@ -91,14 +91,6 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
-# Dex
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    WITH_DEXPREOPT ?= true
-  endif
-endif
-WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
-
 # Display
 TARGET_USES_HWC2 := true
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := (1 << 21) | (1 << 27)
@@ -167,6 +159,3 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from the proprietary version
 -include vendor/asus/Z01R/BoardConfigVendor.mk
-
-# Fix DEXPREOPT Error
-WITH_DEXPREOPT=false
