@@ -766,4 +766,7 @@
 
     <!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
+	
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Asus 5z</string>
 </resources>
