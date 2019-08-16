@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "5z-devs/android_vendor_asus",
+    "repository": "TheMuppets/proprietary_vendor_asus",
     "target_path": "vendor/asus",
     "branch": "lineage-16.0"
   },
