@@ -25,8 +25,8 @@
 
     <!-- Max visible notification icons -->
 
-    <integer name="config_maxVisibleNotificationIcons">5</integer>
-    <integer name="config_maxVisibleNotificationIconsWhenDark">6</integer>
+    <integer name="config_maxVisibleNotificationIcons">3</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">4</integer>
 
     <!-- Show battery icon in the QS Panel instead of in the header -->
     <bool name="config_batteryInQSPanel">true</bool>
