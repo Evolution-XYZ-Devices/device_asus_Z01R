@@ -29,4 +29,7 @@
 
     <!-- Max visible system icons -->
     <integer name="config_maxVisibleStatusIconContainer">4</integer>
+
+    <!-- Whether to show HD icon in the status bar for volte -->
+    <bool name="config_display_hd_volte">true</bool>
 </resources>
