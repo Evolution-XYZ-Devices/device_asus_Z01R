@@ -93,7 +93,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Expose AUX
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.asus.camera
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.asus.camera,com.google.android.GoogleCamera
 
 #Property to enable Mag filter
 PRODUCT_PROPERTY_OVERRIDES += \
