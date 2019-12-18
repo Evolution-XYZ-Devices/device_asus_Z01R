@@ -700,4 +700,7 @@
 	<!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
 	
+    <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+
 </resources>
