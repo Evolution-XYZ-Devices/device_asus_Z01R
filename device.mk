@@ -105,6 +105,12 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Google Permissions
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/oem-permissions/google/pixel4_template.xml:system/etc/permissions/pixel4_template.xml \
+        $(LOCAL_PATH)/oem-permissions/asus/asus.software.marketapp.xml:system/etc/permissions/asus.software.marketapp.xml \
+        $(LOCAL_PATH)/oem-permissions/google/android.hardware.camera.ar.xml:system/etc/permissions/android.hardware.camera.ar.xml
+
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
