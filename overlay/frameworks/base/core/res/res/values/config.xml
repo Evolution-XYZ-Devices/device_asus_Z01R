@@ -619,14 +619,14 @@
          one single bounding rect per device edge to the app via
          {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
          appearance of the cutout as much as possible, and may be smaller than
-         config_mainBuiltInDisplayCutout -->
+         config_mainBuiltInDisplayCutout
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M -24,0
         V 50
         H 87
         V 0
         Z
-    </string>
+    </string> -->
 
     <!-- Height of the status bar in portrait -->
     <dimen name="status_bar_height_portrait">87px</dimen>
