@@ -618,14 +618,14 @@
          one single bounding rect per device edge to the app via
          {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
          appearance of the cutout as much as possible, and may be smaller than
-         config_mainBuiltInDisplayCutout
+         config_mainBuiltInDisplayCutout -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M -24,0
         V 50
         H 87
         V 0
         Z
-    </string> -->
+    </string>
 
     <!-- Height of the status bar in portrait -->
     <dimen name="status_bar_height_portrait">87px</dimen>
@@ -700,12 +700,4 @@
 	<!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
 	
-    <!-- Hide notch  -->
-    <bool name="config_physicalDisplayCutout">true</bool>
-
-    <!-- Smart charge sysfs node and value for suspend/resume charging-->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/proc/driver/smartchg_stop_chg</string>
-    <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
-
 </resources>
