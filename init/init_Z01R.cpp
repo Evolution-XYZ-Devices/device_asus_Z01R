@@ -56,6 +56,6 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 void vendor_load_properties()
 {
     // fingerprint
-    property_override("ro.build.description", "Z01R-user 9 PPR1.180610.009 WW_user_90.11.162.88_20190723 release-keys");
+    property_override("ro.build.description", "Z01R-user 10 QKQ1.191008.001 100.10.107.36 release-keys");
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.191205.011/5974828:user/release-keys");
 }
