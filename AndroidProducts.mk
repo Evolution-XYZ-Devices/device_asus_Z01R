@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_Z01R.mk
+	
+COMMON_LUNCH_CHOICES := \
+    aosp_Z01R-user \
+    aosp_Z01R-userdebug \
+    aosp_Z01R-eng 
