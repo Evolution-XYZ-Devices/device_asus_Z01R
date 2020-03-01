@@ -172,7 +172,8 @@ PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
-    qti_telephony_utils.xml
+    qti_telephony_utils.xml \
+    telephony-ext
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -181,6 +182,13 @@ PRODUCT_SOONG_NAMESPACES += \
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Trust HAL
 #PRODUCT_PACKAGES += \
