@@ -21,3 +21,6 @@ on init
     chown system system /dev/cpuset/audio-app
     chown system system /dev/cpuset/audio-app/tasks
     chmod 0664 /dev/cpuset/audio-app/tasks
+
+service cvphalservice /system/bin/true
+    disabled
