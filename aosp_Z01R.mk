@@ -22,17 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from Z01R device
 $(call inherit-product, device/asus/Z01R/device.mk)
 
-# Inherit some common Bliss stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
-
-# Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+# Inherit some common Evo stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := Zenfone 5Z
-PRODUCT_NAME := bliss_Z01R
+PRODUCT_NAME := aosp_Z01R
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 

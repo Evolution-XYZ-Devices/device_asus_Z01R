@@ -19,7 +19,7 @@ DEVICE_PATH := device/asus/Z01R
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
-ALLOW_MISSING_DEPENDENCIES := true
+#ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -101,13 +101,6 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
-# Dex
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    WITH_DEXPREOPT ?= true
-  endif
-endif
-
 # Display
 TARGET_USES_HWC2 := true
 
@@ -154,6 +147,7 @@ TARGET_RIL_VARIANT := caf
 
 # Telephony
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
