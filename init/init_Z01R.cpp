@@ -56,7 +56,7 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 void vendor_load_properties()
 {
     // fingerprint
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
 	property_override("ro.product.device", "ASUS_Z01R_1");
     property_override("ro.build.description", "Z01R-user 10 QKQ1.191008.001 100.10.107.46 release-keys");
 }
