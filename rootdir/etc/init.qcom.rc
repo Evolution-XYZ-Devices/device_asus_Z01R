@@ -10,21 +10,6 @@ on boot
 
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
-
-on init
-# Create the audio-app stune node
-    mkdir /dev/stune/audio-app
-    chown system system /dev/stune/audio-app
-    chown system system /dev/stune/audio-app/tasks
-    chmod 0664 /dev/stune/audio-app/tasks
-    
-# Create the audio-app cpuset
-    mkdir /dev/cpuset/audio-app
-    copy /dev/cpuset/cpus /dev/cpuset/audio-app/cpus
-    copy /dev/cpuset/mems /dev/cpuset/audio-app/mems
-    chown system system /dev/cpuset/audio-app
-    chown system system /dev/cpuset/audio-app/tasks
-    chmod 0664 /dev/cpuset/audio-app/tasks
-
+	
 service cvphalservice /system/bin/true
     disabled
