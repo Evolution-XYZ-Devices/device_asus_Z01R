@@ -74,6 +74,9 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Charging
+TARGET_PIXEL_CHARGE_ANIM := true
+
 # Camera
 #PRODUCT_PACKAGES += \
 #    Snap
