@@ -31,10 +31,8 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
-PRODUCT_MANUFACTURER := asus
-PRODUCT_MODEL := Zenfone 5Z
+PRODUCT_MANUFACTURER := Asus
 PRODUCT_NAME := aosp_Z01R
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
