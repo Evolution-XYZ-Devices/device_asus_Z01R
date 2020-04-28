@@ -78,8 +78,8 @@ PRODUCT_PACKAGES_DEBUG += \
 TARGET_PIXEL_CHARGE_ANIM := true
 
 # Camera
-#PRODUCT_PACKAGES += \
-#    Snap
+PRODUCT_PACKAGES += \
+    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -166,6 +166,10 @@ PRODUCT_PACKAGES += \
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # RIL
 # Interface library needed by odm blobs:
