@@ -95,9 +95,9 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0
 
 # Doze
-#PRODUCT_PACKAGES += \
-#    AsusDoze \
-#    AsusPocketMode
+PRODUCT_PACKAGES += \
+    AsusDoze \
+    AsusPocketMode
 
 # Doze
 PRODUCT_PACKAGES += \
