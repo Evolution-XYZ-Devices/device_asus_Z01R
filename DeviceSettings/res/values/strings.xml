@@ -14,7 +14,7 @@
     <string name="device_title">Asus Settings</string>
     <string name="device_summary">Adjust Asus specific device settings</string>
 
-    <!-- Display modes -->
+<!--    Display modes
     <string name="display_title">Display modes</string>
     <string name="display_summary">Adjust settings and preferences for display</string>
     <string name="srgb_mode_summary"></string>
@@ -30,7 +30,7 @@
     <string name="panel_category_summary">Modes for panel color correction</string>
     <string name="off_mode_title">Off</string>
     <string name="tile_panel_mode">Panel modes</string>
-
+-->
     <!-- Vibration control -->
     <string name="category_vibrator">Vibrator</string>
     <string name="vib_strength_title_head">System Strength</string>

@@ -11,30 +11,6 @@
      limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory
-        android:key="graphics"
-        android:title="@string/display_title">
-
-        <SwitchPreference
-            android:key="hbm"
-            android:summary="@string/hbm_mode_summary"
-            android:title="@string/hbm_mode_title" />
-
-        <SwitchPreference
-            android:key="dc"
-            android:summary="@string/dc_mode_summary"
-            android:title="@string/dc_mode_title" />
-
-        <Preference
-            android:key="panel_category"
-            android:title="@string/panel_category_title"
-            android:summary="@string/panel_category_summary"
-            android:persistent="false" >
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.lineageos.device.DeviceSettings"
-                    android:targetClass="org.lineageos.device.DeviceSettings.PanelSettingsActivity" />
-        </Preference>
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="gestures"
@@ -50,35 +26,6 @@
                     android:targetPackage="com.android.touch.gestures"
                     android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
         </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="slider"
-        android:title="@string/notification_slider_category_title">
-
-        <ListPreference
-            android:key="keycode_top_position"
-            android:dialogTitle="@string/notification_slider_selection_dialog_title"
-            android:title="@string/notification_slider_top_position"
-            android:summary="%s"
-            android:entries="@array/notification_slider_action_entries"
-            android:entryValues="@array/notification_slider_action_entry_values" />
-
-        <ListPreference
-            android:key="keycode_middle_position"
-            android:dialogTitle="@string/notification_slider_selection_dialog_title"
-            android:title="@string/notification_slider_middle_position"
-            android:summary="%s"
-            android:entries="@array/notification_slider_action_entries"
-            android:entryValues="@array/notification_slider_action_entry_values" />
-
-        <ListPreference
-          android:key="keycode_bottom_position"
-          android:dialogTitle="@string/notification_slider_selection_dialog_title"
-          android:title="@string/notification_slider_bottom_position"
-          android:summary="%s"
-          android:entries="@array/notification_slider_action_entries"
-          android:entryValues="@array/notification_slider_action_entry_values" />
     </PreferenceCategory>
 
     <PreferenceCategory
