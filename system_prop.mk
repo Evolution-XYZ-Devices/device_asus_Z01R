@@ -89,7 +89,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=1 \
     DEVICE_PROVISIONED=1 \
-    ro.telephony.default_network=22,22
+    ro.telephony.default_network=22,22 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true \
+    persist.dbg.wfc_avail_ovr=1
 
 # Expose AUX
 PRODUCT_PROPERTY_OVERRIDES += \
