@@ -68,8 +68,6 @@ public class PanelSettings extends PreferenceFragment implements RadioGroup.OnCh
             checkedButtonId = R.id.srgb_mode;
         } else if (AdaptiveModeSwitch.isCurrentlyEnabled(getContext())) {
             checkedButtonId = R.id.adaptive_mode;
-        } else if (OnePlusModeSwitch.isCurrentlyEnabled(getContext())) {
-            checkedButtonId = R.id.oneplus_mode;
         }
         mRadioGroup.check(checkedButtonId);
         mRadioGroup.setOnCheckedChangeListener(this);
@@ -183,17 +181,6 @@ public class PanelSettings extends PreferenceFragment implements RadioGroup.OnCh
             edit.putBoolean(DeviceSettings.KEY_ONEPLUS_SWITCH, false);
             Utils.writeValue(AdaptiveModeSwitch.getFile(), "1");
             edit.putBoolean(DeviceSettings.KEY_ADAPTIVE_SWITCH, true);
-        } else if (checkedId == R.id.oneplus_mode) {
-            Utils.writeValue(DCIModeSwitch.getFile(), "0");
-            edit.putBoolean(DeviceSettings.KEY_DCI_SWITCH, false);
-            Utils.writeValue(NightModeSwitch.getFile(), "0");
-            edit.putBoolean(DeviceSettings.KEY_NIGHT_SWITCH, false);
-            Utils.writeValue(SRGBModeSwitch.getFile(), "0");
-            edit.putBoolean(DeviceSettings.KEY_SRGB_SWITCH, false);
-            Utils.writeValue(AdaptiveModeSwitch.getFile(), "0");
-            edit.putBoolean(DeviceSettings.KEY_ADAPTIVE_SWITCH, false);
-            Utils.writeValue(OnePlusModeSwitch.getFile(), "1");
-            edit.putBoolean(DeviceSettings.KEY_ONEPLUS_SWITCH, true);
         }
         edit.commit();
     }
