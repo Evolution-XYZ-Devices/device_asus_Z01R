@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.fpsinfo;
+package org.lineageos.device.DeviceSettings;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -41,7 +41,7 @@ import android.view.WindowManager;
 import java.lang.Math;
 import java.lang.StringBuffer;
 
-import com.android.internal.util.custom.FileUtils;
+import org.lineageos.device.DeviceSettings.FileUtils;
 
 public class FPSInfoService extends Service {
     private View mView;

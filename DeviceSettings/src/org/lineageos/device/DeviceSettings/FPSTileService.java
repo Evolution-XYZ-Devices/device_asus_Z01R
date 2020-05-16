@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.fpsinfo;
+package org.lineageos.device.DeviceSettings;
 
 import android.app.ActivityManager;
 import android.content.Intent;
