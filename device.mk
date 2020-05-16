@@ -102,10 +102,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AsusDoze \
     AsusPocketMode
-
-# Doze
-PRODUCT_PACKAGES += \
-    CustomDoze
+#    CustomDoze
 
 # FM
 PRODUCT_PACKAGES += \
