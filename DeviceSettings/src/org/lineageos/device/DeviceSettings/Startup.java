@@ -34,6 +34,13 @@ public class Startup extends BroadcastReceiver {
         VibratorCallStrengthPreference.restore(context);
         VibratorNotifStrengthPreference.restore(context);
 
+        boolean enabled = false;
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_FPS_INFO, false);
+        if (enabled) {
+            context.startService(new Intent(context, FPSInfoService.class));
+       }
     }
 
     private void restore(String file, boolean enabled) {

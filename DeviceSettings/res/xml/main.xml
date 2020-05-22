@@ -45,4 +45,15 @@
             android:title="@string/vib_notif_strength_title_head"
             android:summary="@string/vib_notif_strength_summary_head" />
     </PreferenceCategory>
+	
+	<PreferenceCategory
+        android:key="fps"
+        android:title="@string/fps_title">
+
+        <SwitchPreference
+            android:key="fps_info"
+            android:title="@string/fps_info_title"
+            android:summary="@string/fps_info_summary"
+            android:persistent="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
