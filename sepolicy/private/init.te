@@ -8,3 +8,6 @@ allow init vendor_configs_file:dir mounton;
 allow init {
     sysfs_fp_proximity
 }:file { open read setattr };
+
+# Smart Charging
+allow init sysfs_battery_supply:file { setattr };
