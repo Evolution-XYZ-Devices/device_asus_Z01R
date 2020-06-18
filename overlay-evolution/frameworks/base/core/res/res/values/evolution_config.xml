@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- Copyright (C) 2009 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,13 +15,10 @@
 -->
 
 <resources>
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
-	
-	<!-- Whether or not the device is capable of multiple levels of vibration intensity.
-    Note that this is different from whether it can control the vibration amplitude as some
-    devices will be able to vary their amplitude but do not possess enough dynamic range to
-    have distinct intensity levels -->
-    <bool name="config_vibration_supports_multiple_intensities">true</bool>
+    <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
 
+    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_smartChargingResumeValue" translatable="false">0</string>
 </resources>
