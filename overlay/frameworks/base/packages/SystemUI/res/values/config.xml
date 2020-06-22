@@ -30,10 +30,6 @@
     <!-- Max visible system icons
     <integer name="config_maxVisibleStatusIconContainer">4</integer> -->
 
-    <!-- Burn in protection -->
-    <bool name="config_statusBarBurnInProtection">true</bool>
-    <integer name="config_shift_interval">60</integer>
-
     <!-- Whether to show HD icon in the status bar for volte -->
     <bool name="config_display_hd_volte">true</bool>
 
