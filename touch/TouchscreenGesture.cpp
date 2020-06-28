@@ -43,10 +43,16 @@ const std::map<int32_t, TouchscreenGesture::GestureInfo> TouchscreenGesture::kGe
     // clang-format off
     {0, {46, "Letter C"}},
     {1, {18, "Letter e"}},
-    {2, {31, "Letter S"}},
-    {3, {47, "Letter V"}},
-    {4, {17, "Letter W"}},
-    {5, {44, "Letter Z"}},
+    {2, {38, "Letter L"}},
+    {3, {50, "Letter M"}},
+    {4, {24, "Letter O"}},
+    {5, {31, "Letter S"}},
+    {6, {47, "Letter V"}},
+    {7, {17, "Letter W"}},
+    {8, {44, "Letter Z"}},
+    {9, {261, "Down swipe"}},
+    {10, {262, "Left swipe"}},
+    {11, {263, "Right swipe"}},
     // clang-format on
 };
 
@@ -54,10 +60,16 @@ const uint8_t kKeyMaskGestureControl = 0x40;
 const std::vector<uint8_t> kGestureMasks = {
     0x04,  // C gesture mask
     0x08,  // e gesture mask
+    0x11,  // L gesture mask
+    0x09,  // M gesture mask
+    0x07,  // O gesture mask
     0x10,  // S gesture mask
     0x01,  // V gesture mask
     0x20,  // W gesture mask
     0x02,  // Z gesture mask
+    0x06,  // down gesture mask
+    0x03,  // left gesture mask
+    0x05,  // right gesture mask
 };
 
 Return<void> TouchscreenGesture::getSupportedGestures(getSupportedGestures_cb resultCb) {
