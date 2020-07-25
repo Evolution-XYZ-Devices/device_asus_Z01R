@@ -14,6 +14,11 @@
     <string name="device_title">Asus Settings</string>
     <string name="device_summary">Adjust Asus specific device settings</string>
 
+    <!-- Doze -->
+    <string name="doze_panel_title">Doze</string>
+    <string name="doze_settings_title">Advanced doze settings</string>
+    <string name="doze_settings_summary">Handle sensor related wake events</string>
+
     <!-- Vibration control -->
     <string name="category_vibrator">Vibrator</string>
     <string name="vib_strength_title_head">System Strength</string>
