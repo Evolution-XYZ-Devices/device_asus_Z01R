@@ -65,8 +65,8 @@ TARGET_KERNEL_SOURCE := kernel/asus/sdm845
 TARGET_KERNEL_CONFIG := Z01R_defconfig
 TARGET_KERNEL_NEW_GCC_COMPILE := true
 
-# Prebuilt TWRP include
--include recovery/twrp/Z01R/twrp.mk
+# Prebuilt TWRP
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/twrp/device/asus/Z01R/ramdisk-recovery.cpio
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
