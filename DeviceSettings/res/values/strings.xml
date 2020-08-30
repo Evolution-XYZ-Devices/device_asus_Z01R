@@ -10,9 +10,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <string name="device_title">Asus Settings</string>
-    <string name="device_summary">Adjust Asus specific device settings</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">Device Extras</string>
+    <string name="device_summary">Adjust device specific settings</string>
 
     <!-- Doze -->
     <string name="doze_panel_title">Doze</string>
