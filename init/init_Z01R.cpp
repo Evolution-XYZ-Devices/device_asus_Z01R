@@ -60,8 +60,8 @@ void vendor_load_properties()
     property_override("ro.product.device", "ASUS_Z01R_1");
     property_override("ro.product.model", "Zenfone 5Z");
     property_override("ro.product.brand", "Asus");
-    property_override("ro.build.description", "Z01R-user 10 QKQ1.191008.001 100.10.107.46 release-keys");
-    property_override("org.evolution.build_donate_url", "https://paypal.me/gthunjath");
+    property_override("ro.build.description", "Z01R-user 10 QKQ1.191008.001 100.10.107.92 release-keys");
+    property_override("org.evolution.build_donate_url", "https://www.paypal.me/rohanpurohit3422");
     property_override("org.evolution.build_maintainer", "Aryan Arora");
     property_override("org.evolution.build_support_url", "https://t.me/EvolutionXZ01R");
 }
