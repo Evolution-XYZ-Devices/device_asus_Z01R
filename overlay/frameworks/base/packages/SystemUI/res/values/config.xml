@@ -26,4 +26,6 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxNotificationIcons">5</integer>
     <integer name="config_maxNotificationIconsWhenDark">6</integer>
+
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
 </resources>
