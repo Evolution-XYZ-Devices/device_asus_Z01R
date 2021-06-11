@@ -23,6 +23,7 @@ persist.sys.sf.disable_blurs=1
 ro.sf.blurs_are_expensive=1
 
 # Camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.asus.camera,com.google.android.GoogleCamera
 camera.beautylive.support_flip=1
 persist.vendor.camera.hal3only=1
 ro.asus.camera.cam0.eis_invn.sup_list=4K@30,FHD@60,HD@30,TV@30,FHD18TO9@30
