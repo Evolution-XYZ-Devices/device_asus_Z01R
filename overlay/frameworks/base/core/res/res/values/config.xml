@@ -571,4 +571,15 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
+
+    <!-- If true, the camera will be used more often. -->
+    <bool name="config_adaptive_sleep_available">false</bool>
+
+    <!-- Flag specifying whether VT should be available for carrier: independent of
+         carrier provisioning. If false: hard disabled. If true: then depends on carrier
+         provisioning, availability etc -->
+    <bool name="config_carrier_vt_available">true</bool>
+
+    <!-- If this is true, the screen will fade off. -->
+    <bool name="config_animateScreenLights">false</bool>
 </resources>
