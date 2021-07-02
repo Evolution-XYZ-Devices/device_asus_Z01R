@@ -1,0 +1,2 @@
+allow system_server apex_metadata_file:dir { getattr map open read search write };
+allow system_server apex_metadata_file:file { getattr map open read write };
